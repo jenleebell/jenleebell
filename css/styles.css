@@ -1,0 +1,139 @@
+@font-face {
+  font-family: moderne;
+  src: url(fonts/MODERNESANS.ttf);
+}
+
+@font-face {
+  font-family: couture;
+  src: url(fonts/couture-bld.otf);
+}
+
+@font-face {
+  font-family: lin;
+  src: url(fonts/LinLibertine_R.ttf);
+}
+
+@font-face {
+  font-family: social;
+  src: url(fonts/social.ttf);
+}
+
+@font-face {
+  font-family: spin;
+  src: url(fonts/spinwerad.ttf);
+}
+
+@font-face {
+  font-family: oldstyle;
+  src: url(fonts/oldstyle.ttf);
+}
+
+
+body {
+  background-color: #f2f2f2;
+}
+
+#logo {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  color: #262626;
+  font-family: couture;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  max-width: 1050px;
+  text-align: center;
+  margin: auto;
+}
+
+/*about section*/
+
+.about {
+  background: url(img/mika.jpg);
+  background-size: cover;
+  height: 377px;
+  width: 500px;
+  float: left;
+}
+
+.about-text {
+  min-height: 337px;
+  max-width: 500px;
+  background: #fff;
+  opacity: 0;
+  padding: 20px;
+  font-family: oldstyle;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.about:hover .about-text {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+/*skills section*/
+
+.skills {
+  background: url(img/painting.jpg);
+  background-size: cover;
+  height: 377px;
+  width: 500px;
+  float: right;
+}
+
+.skills-text {
+  min-height: 337px;
+  max-width: 500px;
+  background: #fff;
+  opacity: 0;
+  padding: 20px;
+  font-family: oldstyle;
+  font-size: 1.25em;
+}
+.skills-text ul {
+  list-style: none;
+  text-align: left;
+}
+
+.skills:hover .skills-text {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+/*projects area*/
+
+.projects {
+  margin-top: 425px;
+  background: url(img/hood.jpg);
+  background-size: cover;
+  height: 377px;
+  width: 1050px;
+}
+
+
+/*footer area*/
+
+.footer {
+  margin-top: 100px;
+  font-family: couture;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.social-icons {
+  font-family: social;
+  font-size: 1.25em;
+  letter-spacing: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.social-icons:hover a {
+  color: #B00000;
+}
