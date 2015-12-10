@@ -1,0 +1,38 @@
+@font-face {
+  font-family: couture;
+  src: url(fonts/couture-bld.otf);
+}
+
+body {
+  background: #232323;
+}
+
+body a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body a:hover {
+  color: #fff;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: couture;
+  letter-spacing: 2px;
+  font-size: 2em;
+  float: left;
+}
+
+.exit {
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: couture;
+  float: right;
+  font-size: 2em;
+}

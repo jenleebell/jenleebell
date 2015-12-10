@@ -18,7 +18,7 @@ body {
   background-color: #f2f2f2;
 }
 
-#logo {
+.logo {
   padding-top: 15px;
   padding-left: 20px;
   padding-bottom: 15px;
@@ -57,7 +57,7 @@ body {
 }
 
 .about:hover .about-text {
-  transition: 0.5s;
+  transition: 0.7s;
   opacity: 0.95;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .skills:hover .skills-text {
-  transition: 0.5s;
+  transition: 0.7s;
   opacity: 0.95;
 }
 
@@ -110,8 +110,13 @@ body {
   text-align: center;
 }
 
+.projects-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .projects:hover .projects-text {
-  transition: 0.5s;
+  transition: 0.7s;
   opacity: 0.95;
 }
 
