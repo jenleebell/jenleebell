@@ -46,7 +46,8 @@ body {
 .about-text {
   min-height: 337px;
   max-width: 500px;
-  background: #fff;
+  background: #232323;
+  color: white;
   opacity: 0;
   padding: 20px;
   font-family: oldstyle;
@@ -57,7 +58,7 @@ body {
 
 .about:hover .about-text {
   transition: 0.5s;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 /*skills section*/
@@ -73,20 +74,18 @@ body {
 .skills-text {
   min-height: 337px;
   max-width: 500px;
-  background: #fff;
+  background: #232323;
+  color: white;
   opacity: 0;
   padding: 20px;
   font-family: oldstyle;
   font-size: 1.25em;
-}
-.skills-text ul {
-  list-style: none;
-  text-align: left;
+  text-align: center;
 }
 
 .skills:hover .skills-text {
   transition: 0.5s;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 /*projects area*/
@@ -102,7 +101,8 @@ body {
 .projects-text {
   min-height: 337px;
   max-width: 1050px;
-  background: #fff;
+  background: #232323;
+  color: white;
   opacity: 0;
   padding: 20px;
   font-family: oldstyle;
@@ -112,7 +112,7 @@ body {
 
 .projects:hover .projects-text {
   transition: 0.5s;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 /*footer area*/
