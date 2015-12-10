@@ -1,26 +1,11 @@
 @font-face {
-  font-family: moderne;
-  src: url(fonts/MODERNESANS.ttf);
-}
-
-@font-face {
   font-family: couture;
   src: url(fonts/couture-bld.otf);
 }
 
 @font-face {
-  font-family: lin;
-  src: url(fonts/LinLibertine_R.ttf);
-}
-
-@font-face {
   font-family: social;
   src: url(fonts/social.ttf);
-}
-
-@font-face {
-  font-family: spin;
-  src: url(fonts/spinwerad.ttf);
 }
 
 @font-face {
@@ -51,7 +36,7 @@ body {
 /*about section*/
 
 .about {
-  background: url(img/mika.jpg);
+  background: url(img/mika.png);
   background-size: cover;
   height: 377px;
   width: 500px;
@@ -66,7 +51,8 @@ body {
   padding: 20px;
   font-family: oldstyle;
   font-size: 1.25em;
-  text-align: left;
+  text-align: center;
+  line-height: 35px;
 }
 
 .about:hover .about-text {
@@ -77,7 +63,7 @@ body {
 /*skills section*/
 
 .skills {
-  background: url(img/painting.jpg);
+  background: url(img/painting.png);
   background-size: cover;
   height: 377px;
   width: 500px;
@@ -107,17 +93,33 @@ body {
 
 .projects {
   margin-top: 425px;
-  background: url(img/hood.jpg);
+  background: url(img/hood3.png);
   background-size: cover;
   height: 377px;
   width: 1050px;
 }
 
+.projects-text {
+  min-height: 337px;
+  max-width: 1050px;
+  background: #fff;
+  opacity: 0;
+  padding: 20px;
+  font-family: oldstyle;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.projects:hover .projects-text {
+  transition: 0.5s;
+  opacity: 0.8;
+}
 
 /*footer area*/
 
 .footer {
   margin-top: 100px;
+  margin-bottom: 20px;
   font-family: couture;
   text-align: center;
   font-size: 1.25em;
@@ -125,15 +127,15 @@ body {
 
 .social-icons {
   font-family: social;
-  font-size: 1.25em;
+  font-size: 1.75em;
   letter-spacing: 10px;
 }
 
-.social-icons a {
+.footer a {
   text-decoration: none;
   color: #232323;
 }
 
-.social-icons:hover a {
+.footer a:hover {
   color: #B00000;
 }
